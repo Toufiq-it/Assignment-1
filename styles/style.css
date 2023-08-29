@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-/* Common shared style */
+
+/* Common shared styles */
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -18,6 +19,25 @@ body {
     padding: 20px 40px;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.colortext {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
 
 /* header related style */
 .header {
@@ -48,4 +68,31 @@ body {
 
 .banner .banner-pic {
     width: 500px;
+}
+
+/* main section styles */
+
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* Get The Latest Deals section style */
+.latest {
+    padding: 120px;
+    background-image: url('../background/Rectangle\ 9.png');
+    margin: 130px 0;
+}
+
+.latest1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.email {
+    width: 550px;
+    height: 64px;
+    padding-left: 20px;
+    margin-left: 10px;
 }
