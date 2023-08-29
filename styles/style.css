@@ -96,3 +96,24 @@ main {
     padding-left: 20px;
     margin-left: 10px;
 }
+
+/* Hot deal  */
+
+.hotdeal {
+    display: flex;
+    padding: 50px 30px 0px 150px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* background-size: cover; */
+    margin: 130px 0;
+}
+
+.hotdeal-content .hotdeal-pic {
+    width: 300px;
+}
+
+.hotdeal-content {
+    justify-content: center;
+    text-align: center;
+    padding: 120px 0;
+}
