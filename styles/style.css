@@ -185,3 +185,17 @@ body {
     width: 250px;
     height: 350px;
 }
+
+/* Make us happy style */
+.happy{
+    display: flex;
+    align-items: center;
+}
+.happy-pic{
+    width: 450px;
+    height: 550px;
+    margin: 50px 0px 50px 110px;
+}
+.happy-content{
+    padding: 0 80px;
+}
