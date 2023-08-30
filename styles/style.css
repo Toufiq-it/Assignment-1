@@ -144,13 +144,15 @@ body {
 
 /* Featured Flower style */
 
-.featured{
+.featured {
     margin: 50px 0px;
 }
-.featured-content{
+
+.featured-content {
     text-align: center;
     margin: 50px 0px;
 }
+
 .featured-photos {
     display: flex;
     justify-content: space-evenly;
@@ -187,15 +189,42 @@ body {
 }
 
 /* Make us happy style */
-.happy{
+.happy {
     display: flex;
     align-items: center;
 }
-.happy-pic{
+
+.happy-pic {
     width: 450px;
     height: 550px;
     margin: 50px 0px 50px 110px;
 }
-.happy-content{
+
+.happy-content {
     padding: 0 80px;
+}
+
+/* Footer style */
+.footer-content {
+    background: #111010;
+    padding: 130px;
+}
+
+.shop-text {
+    color: white;
+}
+
+.p-text {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.f-text {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 35px;
 }
