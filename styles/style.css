@@ -219,6 +219,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 .f-text {
@@ -226,5 +227,5 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 200;
-    margin-top: 35px;
+    padding-top: 35px;
 }
